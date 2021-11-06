@@ -1,5 +1,5 @@
 package stringexample;
-import java.util.Scanner;
+import java.util.Scanner;//указываем имена пакетов из библиотек
 
 public class StringExample {
 
