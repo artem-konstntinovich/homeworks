@@ -1,0 +1,18 @@
+-- таблица User
+--задание на select часть 1
+-- создать проверочные селекты - выбрать все данные 
+--задание на insert
+-- доавить три записи Ivanov Petr, Petrov Ivan, Sidorov Max
+--задание на update 
+-- все данные в таблице должны быть в верхнем регистре (Заглавными)
+--задание на delete 
+-- удалить сведенения о Sidorov Max
+
+-- таблица Admins
+-- создать проверочный select и добавить в таблицу admina
+--  с почтой admin@gmail.com и паролем PASsWord 
+
+select * from admins;
+select * from User;
+insert into User (LAST_NAME, FIRST_NAME) values ('Sidorov','Max');
+delete from User where User.USER_ID = 2
